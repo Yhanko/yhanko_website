@@ -1,7 +1,10 @@
 const Footer: React.FC = () => {
 	return (
-		<footer className="flex flex-col py-12 min-h-[50vh] text-white gap-8 " id="footer">
-			<div className="w-full flex justify-between items-start px-24 py-4 max-w-7xl mx-auto">
+		<footer
+			className="flex flex-col py-12 min-h-[50vh] text-white gap-8"
+			id="footer"
+		>
+			<div className="w-full flex max-lg:flex-col max-lg:gap-10 max-lg:text-center max-lg:items-center justify-between items-start px-24 py-4 max-lg:px-9 max-lg:py-2 max-w-7xl mx-auto">
 				<img
 					src="public\logo.png"
 					alt="Logo Yhanko"
@@ -73,9 +76,11 @@ const Footer: React.FC = () => {
 				</ul>
 			</div>
 			<hr className="w-full border border-primaryOpacity" />
-			<p className="text-center text-xs">
-				© 2024 Global Services Corporation. Todos os direitos reservados.
-			</p>
+			<div className="max-lg:px-9">
+				<p className="text-center text-xs ">
+					© 2024 Global Services Corporation. Todos os direitos reservados.
+				</p>
+			</div>
 		</footer>
 	)
 }

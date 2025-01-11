@@ -42,16 +42,16 @@ const Services: React.FC = () => {
 
 	return (
 		<section className="default-layout flex-col text-white" id="services">
-			<div className="title-subtitle">
+			<div className="title-subtitle max-lg:w-full">
 				<h1 className="text-3xl text-primary font-bold">Serviços</h1>
-				<p className="text-base">
+				<p className="text-base max-lg:text-xs">
 					Oferecemos soluções completas e personalizadas para atender às suas
 					necessidades, desde o desenvolvimento de projetos criativos até a
 					entrega de resultados que superam expectativas
 				</p>
 			</div>
 
-			<div className="w-full grid grid-cols-3 gap-8">
+			<div className="w-full grid grid-cols-3 max-lg:grid-cols-1 gap-8">
 				{servicesInfo.map((service, index) => (
 					<ServiceCard
 						key={index}

@@ -14,7 +14,7 @@ const ServiceCard: React.FC<CardProps> = ({ imgSrc, title, description }) => {
 	}
 
 	return (
-		<div className="flex flex-col gap-2 text-white rounded-lg border border-primary p-4 hover:-translate-y-2 transition-all ease-in-out duration-500">
+		<div className="flex flex-col gap-2 text-white rounded-lg max-lg:rounded-2xl border border-primary p-4 hover:-translate-y-2 transition-all ease-in-out duration-500">
 			<img src={imgSrc} alt="Icon" className="w-12" />
 
 			<h2 className="">{title}</h2>

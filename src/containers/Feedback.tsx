@@ -35,12 +35,12 @@ const Feedback: React.FC = () => {
 
 	return (
 		<section className="default-layout-vertical" id="feedback">
-			<div className="title-subtitle">
+			<div className="title-subtitle max-lg:w-full">
 				<h1 className="text-3xl font-bold">
 					Nossos <span className="text-primary">Clientes</span>
 				</h1>
 
-				<p>
+				<p className="max-lg:text-xs">
 					Cada parceria reflete nosso compromisso em oferecer soluções
 					inovadoras, eficientes e personalizadas, impulsionando o sucesso de
 					seus negócios.
@@ -59,6 +59,16 @@ const Feedback: React.FC = () => {
 					autoplay={{
 						disableOnInteraction: true,
 						delay: 3000,
+					}}
+					breakpoints={{
+						320: {
+							spaceBetween: 10,
+							slidesPerView: 1,
+						},
+						1024: {
+							spaceBetween: 50,
+							slidesPerView: 3,
+						},
 					}}
 					className="w-full z-50"
 				>
