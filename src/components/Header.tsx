@@ -42,7 +42,7 @@ const Header: React.FC = () => {
 				{navlist.map((items, index) => (
 					<li
 						key={index}
-						className="hover:scale-110 transition-all duration-300 max-lg:hover:bg-secondary text-center max-lg:px-4 max-lg:py-2 max-lg:rounded-lg max-lg:w-full"
+						className="hover:scale-110 transition-all cursor-pointer duration-300 max-lg:hover:bg-secondary text-center max-lg:px-4 max-lg:py-2 max-lg:rounded-lg max-lg:w-full"
 						onClick={() => handleMenuToggle(items.id)}
 					>
 						{items.name}
