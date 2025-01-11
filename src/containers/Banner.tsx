@@ -1,4 +1,4 @@
-import { CtaButton } from "../components/CTAButton.tsx"
+import { CtaButton } from "../components/CtaButton.tsx"
 
 const Banner: React.FC = () => {
 	return (
