@@ -5,28 +5,30 @@ import { Autoplay, Navigation } from "swiper/modules"
 import FeedbackCard, { FeedbackCardProps } from "../components/FeedbackCard"
 import SwiperNavigationButtons from "../components/SwiperNavigationButtons"
 
+import person1 from "../assets/Feedback/person1.png"
+
 const Feedback: React.FC = () => {
 	const feedbackInfo: FeedbackCardProps[] = [
 		{
-			imgSrc: "src/assets/Feedback/person1.png",
+			imgSrc: person1,
 			name: "Joel Silva",
 			role: "CEO na JS Technology",
 			feedback: `Estou muito feliz com o website que fizeram pra mim, minha empresa cresceu muito graças à vocês.`,
 		},
 		{
-			imgSrc: "src/assets/Feedback/person1.png",
+			imgSrc: person1,
 			name: "Romeu Cajamba",
 			role: "CEO na Yhanko Tech",
 			feedback: `Estou muito feliz com o website que fizeram pra mim, minha empresa cresceu muito graças à vocês.`,
 		},
 		{
-			imgSrc: "src/assets/Feedback/person1.png",
+			imgSrc: person1,
 			name: "Romeu Cajamba",
 			role: "CEO na Yhanko Tech",
 			feedback: `Estou muito feliz com o website que fizeram pra mim, minha empresa cresceu muito graças à vocês.`,
 		},
 		{
-			imgSrc: "src/assets/Feedback/person1.png",
+			imgSrc: person1,
 			name: "Romeu Cajamba",
 			role: "CEO na Yhanko Tech",
 			feedback: `Estou muito feliz com o website que fizeram pra mim, minha empresa cresceu muito graças à vocês.`,

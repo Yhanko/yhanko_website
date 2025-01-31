@@ -1,14 +1,17 @@
 import PortfolioCard, { PortfolioCardProps } from "../components/PortfolioCard"
 
+import imagem1 from "../../src/assets/Portfolio/port1.png";
+import imagem2 from "../../src/assets/Portfolio/port2.png";
+
 const Portfolio: React.FC = () => {
 	const portfolioInfo: PortfolioCardProps[] = [
 		{
-			imgSrc: "src/assets/Portfolio/port1.png",
+			imgSrc: imagem1,
 			altText: "Projecto aleatório 1",
 			link: "/",
 		},
 		{
-			imgSrc: "src/assets/Portfolio/port2.png",
+			imgSrc: imagem2,
 			altText: "Projecto aleatório 2",
 			link: "/",
 		},

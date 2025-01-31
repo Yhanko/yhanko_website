@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
 		>
 			<div className="w-full flex max-lg:flex-col max-lg:gap-10 max-lg:text-center max-lg:items-center justify-between items-start px-24 py-4 max-lg:px-9 max-lg:py-2 max-w-7xl mx-auto">
 				<img
-					src="public\logo.png"
+					src="/logo.png"
 					alt="Logo Yhanko"
 					className="object-contain w-32"
 				/>
