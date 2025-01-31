@@ -1,4 +1,5 @@
 import { CtaButton } from "../components/CtaButton.tsx"
+import programmer from "../assets/Banner/programmer.png"
 
 const Banner: React.FC = () => {
 	return (
@@ -21,11 +22,7 @@ const Banner: React.FC = () => {
 				<CtaButton />
 			</div>
 
-			<img
-				src="src\assets\Banner\programmer.png"
-				alt="Programmer"
-				className="w-1/2 max-lg:hidden"
-			/>
+			<img src={programmer} alt="Programmer" className="w-1/2 max-lg:hidden" />
 		</section>
 	)
 }

@@ -22,8 +22,8 @@ const Header: React.FC = () => {
 	return (
 		<header className="flex w-full items-center justify-between lg:px-24 lg:py-4 px-9 py-10 max-w-7xl mx-auto">
 			<a href="/">
-				<img src="./logo.png" alt="" className="w-32 max-lg:hidden" />
-				<img src="./logo.svg" alt="" className="w-12 lg:hidden" />
+				<img src="/logo.png" alt="" className="w-32 max-lg:hidden" />
+				<img src="/logo.svg" alt="" className="w-12 lg:hidden" />
 			</a>
 
 			<ul
