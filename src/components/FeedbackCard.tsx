@@ -1,3 +1,5 @@
+import quotes from "../assets/icons/quotes.svg"
+
 export interface FeedbackCardProps {
 	imgSrc: string
 	name: string
@@ -23,7 +25,7 @@ const FeedbackCard: React.FC<FeedbackCardProps> = ({
 					</div>
 				</div>
 
-				<img src="src\assets\icons\quotes.svg" alt="Quotes" className="w-12" />
+				<img src={quotes} alt="Quotes" className="w-12" />
 			</div>
 
 			<p className="text-sm max-lg:text-xs">{feedback}</p>

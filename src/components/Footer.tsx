@@ -1,3 +1,7 @@
+import facebook from "../assets/icons/facebook.svg"
+import instagram from "../assets/icons/instagram.svg"
+import linkedin from "../assets/icons/linkedin.svg"
+
 const Footer: React.FC = () => {
 	return (
 		<footer
@@ -51,15 +55,15 @@ const Footer: React.FC = () => {
 					<div className="flex gap-2">
 						{[
 							{
-								imgSrc: "src/assets/icons/facebook.svg",
+								imgSrc: facebook,
 								link: "https://www.facebook.com/",
 							},
 							{
-								imgSrc: "src/assets/icons/instagram.svg",
+								imgSrc: instagram,
 								link: "https://www.instagram.com/",
 							},
 							{
-								imgSrc: "src/assets/icons/linkedin.svg",
+								imgSrc: linkedin,
 								link: "https://www.linkedin.com/",
 							},
 						].map((item, index) => (
